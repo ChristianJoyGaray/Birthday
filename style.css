@@ -407,12 +407,12 @@ audio {
     align-items: center;
     flex-direction: column;
     background-image: linear-gradient(to bottom left, #E3CFDE,#BFB8ED );
+    padding: 30px 0;
 }
 
 .end{
     text-decoration: none;
 }
-
 
 @media screen and (max-width: 680px){
     .hbd{
