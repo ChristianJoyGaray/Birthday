@@ -401,6 +401,18 @@ audio {
 
 }
 
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom left, #E3CFDE,#BFB8ED );
+}
+
+.end{
+    text-decoration: none;
+}
+
 
 @media screen and (max-width: 680px){
     .hbd{
