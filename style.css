@@ -5,7 +5,7 @@
 }
 
 * {
-    scrollbar-width: none;
+    scrollbar-width:thin;
   }
   
   /* Hide scrollbar for WebKit/Blink */
