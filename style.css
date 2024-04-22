@@ -350,10 +350,7 @@ audio {
     background-image: linear-gradient(to top left, #E3CFDE,#BFB8ED );
     height: auto;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    
 }
 
 .slider-wrapper{
@@ -404,10 +401,6 @@ audio {
 
 }
 
-.end{
-    padding-top: 50px;
-    text-decoration: none;
-}
 
 @media screen and (max-width: 680px){
     .hbd{
