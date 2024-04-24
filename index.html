@@ -157,7 +157,7 @@
 
 <script>
 
-    window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function() {
     const scrolled = window.scrollY;
     const parallax = document.querySelector('.parallax');
     parallax.style.backgroundPositionY = -scrolled * 0.5 + 'px'; // Adjust the multiplier for parallax effect
@@ -173,16 +173,5 @@ document.getElementById('playPauseButton').addEventListener('click', function() 
         this.classList.remove('playing');
     }
 });
-document.getElementById('playPauseButton').addEventListener('click', function() {
-    var audio = document.getElementById('audioPlayer');
-    if (audio.paused) {
-        audio.play();
-        this.classList.add('playing');
-    } else {
-        audio.pause();
-        this.classList.remove('playing');
-    }
-});
-
 </script>
 </html>
