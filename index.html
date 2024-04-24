@@ -43,9 +43,9 @@
             <div><p class="hbdm">pero I'm glad na naging <br> part ka ng life ko!</p></div>
         </div>
     </div>
+    <div id="timeline-section" class="timeline-container">
+    <h2 class="timeline-header">We have been friends for ages!</h2>
     <div class="timeline">
-
-        <h2 class="timeline-header">We have been friends for ages!</h2>
 
         <div class="container-timeline left-container">
             <div class="text-box">
@@ -118,7 +118,7 @@
                 <span class="left-container-arrow"></span>
             </div>
         </div>
-
+    </div>
     </div>
     <section class="container">
         <div class="slider-wrapper">
@@ -173,6 +173,21 @@ document.getElementById('playPauseButton').addEventListener('click', function() 
         this.classList.remove('playing');
     }
 });
+document.getElementById('playPauseButton').addEventListener('click', function() {
+    var audio = document.getElementById('audioPlayer');
+    if (audio.paused) {
+        audio.play();
+        this.classList.add('playing');
+    } else {
+        audio.pause();
+        this.classList.remove('playing');
+    }
+});
+
+
+
+
+
 
 </script>
 </html>

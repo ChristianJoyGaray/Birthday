@@ -154,11 +154,17 @@ audio {
     padding-right: 2%;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+.timeline-container{
+    background-image: linear-gradient(to bottom left, #E3CFDE, #BFB8ED);
+    width: auto;
+    height: auto;
+}
+
 .timeline {
     position: relative;
     width: auto;
     height: auto;
-    background-image: linear-gradient(to bottom left, #E3CFDE, #BFB8ED);
+    background: transparent;
     padding: 50px 0; /* Adjust the padding as needed */
 }
 .timeline-header{
@@ -267,13 +273,14 @@ audio {
     content: '';
     position: absolute;
     width: 6px;
-    height: 100%;
-    color: red;
+    height: auto;
+    background-color: rgb(218, 224, 255);
     top: 0;
     left: 50%;
     margin-left: -3px;
-    z-index: -1;
+    z-index: 1;
     animation: moveline 6s linear forwards;
+    border-radius: 50px;
 }
 
 @keyframes moveline{
@@ -316,7 +323,7 @@ audio {
     }
     
     .timeline::after{
-        left: 31px;
+        left: 3px;
     }
 
     .container-timeline {
